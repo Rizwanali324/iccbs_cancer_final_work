@@ -45,7 +45,7 @@ def main():
         layout='wide',
         initial_sidebar_state='expanded'
     )
-    st.sidebar.markdown("# aibytec")
+    st.sidebar.markdown("# Aibytec ")
     st.sidebar.image('image/logo.jpg', width=200)
     st.title("Breast Cancer Classification using Ultrasound Images")
 
@@ -106,7 +106,7 @@ def main():
     st.markdown("""
     ## Instructions
     
-    1. Upload an image file (JPEG or PNG format) of a breast ultrasound scan.
+    1. Upload an image file (JPEG or PNG format) of a breast Mammogram scan.
     2. Click the "Predict" button to get the Prediction result.
     """)
 
@@ -155,7 +155,7 @@ def main():
     
     
     **Data**:
-    The data collected at baseline include breast ultrasound images among women aged between 25 and 75 years old. This data was collected in 2018. The number of patients is 600 female patients. Images are categorized into three classes: normal, benign, and malignant.
+    The data collected at baseline include breast Mammogram images among women aged between 25 and 75 years old. This data was collected in 2018. The number of patients is 600 female patients. Images are categorized into three classes: normal, benign, and malignant.
     """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
