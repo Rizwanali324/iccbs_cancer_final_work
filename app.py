@@ -149,8 +149,7 @@ def main():
     st.markdown("""
     ## Dataset Information
     
-    Breast cancer is one of the most common causes of death among women worldwide. Early detection helps in reducing the number of early deaths. The data reviews the medical images of breast cancer using ultrasound scans. The Breast Ultrasound Dataset is categorized into three classes: normal, benign, and malignant images. Breast ultrasound images can produce great results in the classification, detection, and segmentation of breast cancer when combined with machine learning.
-
+    Breast cancer is one of the most common causes of death among women worldwide. Early detection helps in reducing the number of early deaths. 
     **Data**:
     The data collected at baseline include breast ultrasound images among women aged between 25 and 75 years old. This data was collected in 2018. The number of patients is 600 female patients. Images are categorized into three classes: normal, benign, and malignant.
     """, unsafe_allow_html=True)
